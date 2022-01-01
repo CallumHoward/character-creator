@@ -26,15 +26,26 @@
   margin: 0;
 }
 
+section {
+  position: relative;
+}
+
 .characterWrapper {
-  position: fixed;
+  position: sticky;
   top: 160px;
-  left: 50%;
-  bottom: 5%;
   margin-left: 96px;
   min-height: 500px;
 }
 
+.characterPreviewColumn {
+  width: 100%;
+  height: 100%;
+  max-width: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
 .controlColumn {
   max-width: 50%;
+  display: inline-block;
 }
